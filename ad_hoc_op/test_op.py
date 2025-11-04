@@ -93,7 +93,6 @@ def main():
     # create_logger(**logger_params)
     _print_config()
     start_time = time.time()
-    end_time = time.time()
 
     tester = Tester(env_params=env_params,
                       model_params=model_params,
@@ -101,6 +100,7 @@ def main():
 
     # copy_all_src(tester.result_folder)
     no_aug_score, aug_score = tester.run()
+    end_time = time.time()
     print('no_aug_score:', -no_aug_score)
     print('aug_score:', -aug_score)
     print('time', end_time - start_time)
