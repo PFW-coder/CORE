@@ -48,7 +48,7 @@ model_params = {
     'eval_type': 'argmax',
     'context_decoder': True,
     'context_layer_num': 1,
-    'random_choice': False
+    'random_choice': True
 }
 
 optimizer_params = {

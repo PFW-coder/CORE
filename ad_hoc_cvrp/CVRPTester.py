@@ -123,6 +123,7 @@ class CVRPTester:
         ###############################################
         state, reward, done = self.env.pre_step()
         while not done:
+            torch.seed()
             selected, _ = self.model(state)
             # shape: (batch, pomo)
             state, reward, done = self.env.step(selected)
