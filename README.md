@@ -1,6 +1,6 @@
-# GATR
+# CORE
 
-This is a deep reinforcement learning-based method that solves routing problems with the ad hoc team. We provide codes for three CO (combinatorial optimization) problems:
+This is a deep reinforcement learning-based method that solves routing problems with the ad hoc team. We provide codes for three resource-varying CO (combinatorial optimization) problems:
 - Capacitated Vehicle Routing Problem (CVRP), with the min-max arrival time objective, used for relief transportation. Team parameters include team size, member speed, and member capacity.
 - Team Orienteering Problem (TOP), with the maximum collected prize objective, used for disaster data collection. Team parameters include team size, member speed, and member endurance.
 - Pickup and Delivery Problem (PDP), with the minimum average arrival time objective, used for medical delivery. Team parameters include team size, member speed, and member endurance.
